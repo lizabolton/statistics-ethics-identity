@@ -207,7 +207,6 @@ class: inverse, middle
 
 # Thank you for coming!
 
-.header[<u>[Go to plan](#plan)</u>]
 
 ```{r eval = FALSE, echo = FALSE}
 
