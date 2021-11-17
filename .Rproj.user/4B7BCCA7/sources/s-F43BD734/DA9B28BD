@@ -1,9 +1,9 @@
 {
     "id": "DA9B28BD",
-    "path": "~/Dropbox/U of T/Reading courses/2021–22 Ethical Professional Practice for Statisticians/My seminar/.gitignore.R",
-    "project_path": ".gitignore.R",
+    "path": "~/Dropbox/U of T/Reading courses/2021–22 Ethical Professional Practice for Statisticians/My seminar/.gitignore",
+    "project_path": ".gitignore",
     "type": "r_source",
-    "hash": "0",
+    "hash": "2088361160",
     "contents": "",
     "dirty": false,
     "created": 1637120445860.0,
@@ -21,7 +21,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1637120545166,
+    "last_content_update": 1637120545,
     "read_only": false,
     "read_only_alternatives": []
 }
