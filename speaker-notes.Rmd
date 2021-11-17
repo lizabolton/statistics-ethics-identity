@@ -1,0 +1,16 @@
+---
+title: "Write-up for blog"
+output: html_notebook
+---
+
+The following are my speaker notes for a sample seminar with my STA497 students. It was intended as a model seminar for their own upcoming 20 minute seminars about topics from *Calling Bullshit: The Art of Skepticism in a Data-Driven World*, by Carl Bergstrom and Jevin West (see: https://www.callingbullshit.org/).
+
+## Land acknowlesgement
+
+As we finally meet together in person, let us begin by acknowledging the land that we are meeting on today. The land on which our University operates is the traditional lands of the Anishinaabe, the Haudenosaunee and the Mississaugas of the Credit. With the Dish With One Spoon treaty, these peoples agreed to share and protect this land, and all those who have come here since, both Indigenous and non-Indigenous, are invited into this treaty in a spirit of respect and peace. I also seek to acknowledge that this is, more recently, Treaty 13 land, a treaty between the Mississaugas and the British Crown.
+
+Today we come together to discuss statistics and human biology, two fields that have been part of historical and ongoing colonization,  oppression and harm of Indigenous peoples. Let us take this moment to remind ourselves of our responsibilities to this land, its original peoples, and to each other and work to be ethical and culturally competent practitioners in our chosen fields.
+
+## Census matching activity
+
+Before we get in to the goals for today

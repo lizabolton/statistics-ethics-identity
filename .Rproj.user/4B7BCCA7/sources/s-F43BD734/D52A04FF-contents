@@ -1,0 +1,192 @@
+---
+title: "STA497 seminar: Statistics, identity and ethics"
+subtitle: "Ethical considerations in the measurement and use of identity data"
+author: "Prof. Liza Bolton"
+date: "Nov 17, 2021"
+output:
+  xaringan::moon_reader:
+    css: "slides.css"
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+header-includes:
+- \usepackage{pdfpages}
+---
+
+```{r setup, include=FALSE}
+# R options
+options(
+  htmltools.dir.version = FALSE, # for blogdown
+  show.signif.stars = FALSE,     # for regression output
+  warm = 1,
+  crayon.enabled = FALSE
+  )
+# Set dpi and height for images
+library(knitr)
+opts_chunk$set(fig.height = 2.65, dpi =300, warning=FALSE, message=FALSE) 
+# ggplot2 color palette with gray
+color_palette <- list(gray = "#999999", 
+                      salmon = "#E69F00", 
+                      lightblue = "#56B4E9", 
+                      green = "#009E73", 
+                      yellow = "#F0E442", 
+                      darkblue = "#0072B2", 
+                      red = "#D55E00", 
+                      purple = "#CC79A7")
+
+library(tidyverse)
+library(gridExtra)
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+### xaringan::inf_mr() -> use this for display within Rstudio
+
+xaringanExtra::use_share_again()
+xaringanExtra::style_share_again(
+  share_buttons = "none"
+)
+
+htmltools::tagList(
+  xaringanExtra::use_clipboard(
+    button_text = "<i class=\"fa fa-clipboard\"></i>",
+    success_text = "<i class=\"fa fa-check\" style=\"color: #90BE6D\"></i>",
+    error_text = "<i class=\"fa fa-times-circle\" style=\"color: #F94144\"></i>"
+  ),
+  rmarkdown::html_dependency_font_awesome()
+)
+```
+
+
+class: middle, center, inverse
+name: welcome
+# Welcome
+
+.header[<u>[Go to plan](#plan)</u>]
+
+---
+class: center
+
+# Land Acknowledgement
+
+As we finally meet together in person, let us begin by acknowledging the land that we are meeting on today. The land on which our University operates is the traditional lands of the Anishinaabe, the Haudenosaunee and the Mississaugas of the Credit. With the Dish With One Spoon treaty, these peoples agreed to share and protect this land, and all those who have come here since, both Indigenous and non-Indigenous, are invited into this treaty in a spirit of respect and peace. I also seek to acknowledge that this is, more recently, Treaty 13 land, a treaty between the Mississaugas and the British Crown.
+
+Today we come together to discuss statistics and human biology, two fields that have been part of historical and ongoing colonization,  oppression and harm of Indigenous peoples. Let us take this moment to remind ourselves of our responsibilities to this land, its original peoples, and to each other and work to be ethical and culturally competent practitioners in our chosen fields.
+
+
+---
+# A note on language
+
+There is some language referenced in this seminar that is outdated and can be offensive. These terms are used only in the context of the historical documents from which they have been drawn, and seek to illustrate the development of our social understandings of identity.
+
+- 'Eskimo': https://www.thecanadianencyclopedia.ca/en/article/eskimo  
+- 'Indian': https://www.thecanadianencyclopedia.ca/en/article/indian-term
+
+```{r, fig.width=5, echo=FALSE, fig.align='center'}
+knitr::include_graphics("images/swearing.png")
+```
+
+---
+
+## Census detectives activity
+
+### Background
+The Constitution Act of 1867 set out the requirement for a census of the population to be taken every 10 years. The first of these decennial censuses took place in 1871 in the four original provinces (Ontario, Quebec, Nova Scotia, New Brunswick). The most recent of these censuses was conducted in 2021.
+
+### Task
+Complete each of the following census questionnaires about yourself. (Note, these are not the complete census forms, these are questions about sex/gender age and race/ethnicity.
+These questions have been retyped and somewhat reformatted, but the original text has been preserved.
+Once you have completed the forms, try to put them in chronological order from oldest to most recent census.
+
+---
+
+## Solutions
+
+A = 1991  
+B = 1921  
+C = 1871  
+D = 2021  
+E = 1951  
+
+## Comments & points of interest
+
+- 2021 was the first census to include questions about both gender and sex.  
+- Prior to 2001 data was not collected on couples other than heterosexual couples.  
+- For the 1951 census a new punch card technology was used make data tabulation faster.
+- Yukon wasn't a territory until 1999 and so is not listed in the 1991 census
+
+.footer[Source: _Guide to the Census of Population, 2016, Chapter 2 – Census history_ https://www12.statcan.gc.ca/census-recensement/2016/ref/98-304/chap2-eng.cfm]
+
+---
+background-image: url("images/1871.jpg")
+background-size: contain
+
+---
+background-image: url("images/1921.jpg")
+background-size: contain
+
+---
+background-image: url("images/1951-1.jpg")
+background-size: contain
+
+---
+background-image: url("images/1951-2.png")
+background-size: contain
+
+---
+name: plan
+
+## Plan for today
+You can click the following links to navigate through the slides (in the HTML version).
+
+* [Welcome](#welcome)
+* [Goals](#goals)
+* [Activity 1](#act1)
+* [Case study](#fish)
+* [Breakout 1](#breakout1)
+* [Report back 1](#report1)
+* [10 minute break](#break)
+* [Breakout 2](#breakout2)
+* [Report back 2](#report2)
+* [Ticket out the door](#ticket)
+* [Closing](#close)
+
+---
+class: middle, center, inverse
+name: goals
+# Goals
+
+.header[<u>[Go to plan](#plan)</u>]
+---
+
+## Learning outcomes
+
+.header[<u>[Go to plan](#plan)</u>]
+
+
+By the end of this session, you will have:
+
+- Explored some common measures of identity statisticians often work with 
+- Be able to explain considerations about how to ethically collect and use identity measures
+
+---
+
+# Image credits
+
+Swearing icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>.
+
+
+---
+
+class: inverse, middle
+
+# Thank you for coming!
+
+.header[<u>[Go to plan](#plan)</u>]
+
+```{r eval = FALSE, echo = FALSE}
+
+pagedown::chrome_print("identity.html", wait = 10)
+
+```
