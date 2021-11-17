@@ -109,11 +109,12 @@ C = 1871
 D = 2021  
 E = 1951  
 
-## Comments
+## Comments & points of interest
 
 - 2021 was the first census to include questions about both gender and sex.  
 - Prior to 2001 data was not collected on couples other than heterosexual couples.  
 - For the 1951 census a new punch card technology was used make data tabulation faster.
+- Yukon wasn't a territory until 1999 and so is not listed in the 1991 census
 
 .footer[Source: _Guide to the Census of Population, 2016, Chapter 2 – Census history_ https://www12.statcan.gc.ca/census-recensement/2016/ref/98-304/chap2-eng.cfm]
 
@@ -186,6 +187,6 @@ class: inverse, middle
 
 ```{r eval = FALSE, echo = FALSE}
 
-pagedown::chrome_print("identity.html", wait = 10)
+pagedown::chrome_print("index.html", wait = 10)
 
 ```
