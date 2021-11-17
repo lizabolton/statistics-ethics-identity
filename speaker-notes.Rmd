@@ -1,16 +1,79 @@
 ---
 title: "Write-up for blog"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 The following are my speaker notes for a sample seminar with my STA497 students. It was intended as a model seminar for their own upcoming 20 minute seminars about topics from *Calling Bullshit: The Art of Skepticism in a Data-Driven World*, by Carl Bergstrom and Jevin West (see: https://www.callingbullshit.org/).
 
-## Land acknowlesgement
+## Land acknowledgement
 
 As we finally meet together in person, let us begin by acknowledging the land that we are meeting on today. The land on which our University operates is the traditional lands of the Anishinaabe, the Haudenosaunee and the Mississaugas of the Credit. With the Dish With One Spoon treaty, these peoples agreed to share and protect this land, and all those who have come here since, both Indigenous and non-Indigenous, are invited into this treaty in a spirit of respect and peace. I also seek to acknowledge that this is, more recently, Treaty 13 land, a treaty between the Mississaugas and the British Crown.
 
 Today we come together to discuss statistics and human biology, two fields that have been part of historical and ongoing colonization,  oppression and harm of Indigenous peoples. Let us take this moment to remind ourselves of our responsibilities to this land, its original peoples, and to each other and work to be ethical and culturally competent practitioners in our chosen fields.
 
-## Census matching activity
+## A note on langauge
 
-Before we get in to the goals for today
+There is some language referenced in this seminar that is outdated and can be offensive. These terms are used only in the context of the historical documents from which they have been drawn, and seek to illustrate the development of our social understandings of identity. If you'd like to learn more about the history of these terms, The Canadian Encyclopedia may be a useful place to start.
+
+- 'Eskimo': https://www.thecanadianencyclopedia.ca/en/article/eskimo  
+- 'Indian': https://www.thecanadianencyclopedia.ca/en/article/indian-term
+
+## A note on my identity
+
+While I have tried to use the most accepted and appropriate language and research the topics I'm presenting, I do also want to acknowledge that I am a white, cis-woman and I'm speaking from a position of priviledge and sharing stories about peoples with significantly less.
+
+If I make mistakes, and you're comfortable letting me know, please do.
+
+My hope in this seminar is to emphasize the broad important and work that we do as statistcians and the roles that we have in the ethical collection and dissemination of identity data.
+
+## Census detective activity
+
+To motivate our conversation today, we're going to start with a census detective activity. You've each received an instructions sheet and five reformatted versions of selected census questions about age, sex/gender, race/ethnicity/ancestral origins and marital status.
+
+You will have about 7 minutes to complete all of the following sample census questionnaires about __yourself.__ These questions have been retyped and somewhat reformatted, but the original text has been preserved. Once you have completed the forms, try to put them in chronological order from the oldest to most recent census.
+
+[Link to activity](census-detective-activity.pdf)
+
+### Solutions
+
+A = 1991  
+B = 1921  
+C = 1871  
+D = 2021  
+E = 1951  
+
+### Comments & points of interest ^[_Guide to the Census of Population, 2016, Chapter 2 – Census history_ https://www12.statcan.gc.ca/census-recensement/2016/ref/98-304/chap2-eng.cfm]
+
+- 2021 was the first census to include questions about both gender and sex, specifically defining sex as sex assigned at birth. 
+- Prior to 2001 data was not collected on couples other than heterosexual couples.  
+- For the 1951 census a new punch card technology was used make data tabulation faster.
+- Yukon wasn't a territory until 1999 and so is not listed in the 1991 census.
+
+
+## So what was the point of this?
+
+We have a long history of valuing information about people and population. As Andrew Whitby says in his excellent book, the Sum of the People ^[https://andrewwhitby.com/the_sum_of_the_people/], 
+
+> "As with laws, taxes, and religion, counting people is an institutions of community that goes back as far as community itself, in ancient China, the Fertile Crescent, and probably everywhere esle that people began to live together in large numbers."
+
+In fact, on of the stories from his book is particularly apt as we approach the festive season. In the the Nativity Story, about the birth of Jesus, Mary and Joseph were travelling because Joseph needed to return to 
+
+> In those days Caesar Augustus issued a decree that a census should be taken of the entire Roman world. (This was the first census that took place while Quirinius was governor of Syria.)  And everyone went to their own town to register. So Joseph also went up from the town of Nazareth in Galilee to Judea, to Bethlehem the town of David, because he belonged to the house and line of David. He went there to register with Mary, who was pledged to be married to him and was expecting a child. 
+
+__- Luke 2:1-5 (New International Version)__
+
+
+In other version of this Bible verse, instead of 'census' these verses are translated to be about taxation. In fact, the connection above to "laws, taxes, and religion" should perhaps suggest to us the strong link between census and control of populations. The usual branding, at least for me growing up in New Zealand was that we have do censuses because the data helps us plan where to put hospital and schools, but there can be lot more to it.
+
+In November 1948, the first census of the state of Isreal was run. This happened during a time of significant conflict, after Isreal's Declaration of Independence. Though most statistics about this time are contested, up to 750,000 Arabs living in the territory may have fled at this time. This is call _Nabka_, the catastrohpe by Palestinians. But what does the Census have to do with this? And why would you bother running a burecratic paperwork exercise during a violent conflict? This census was the foundation for gaining status as a citizen in the new state of Israel. "People absent form their homes--not least several hundred thousand displaced Arabs--were not counted, did not receive a registration number, and did not become Israeli" (Whitby, 2020). This wasn't a neutral act of enumerating a population, it was the use of official statistics to create a population.
+
+Official data has had many dark moments in our history. In the 1994 Rwandan genocide, ethnic ID cards (put in place by Belgian colonists in 1933 ) were used to target the Tutsi minority, with between 500,000--800,000 deaths over 100 days.
+
+Growing up, I couldn't believe this happened in my lifetime, and yet we are currently seeing harassment of Tigrayan people in Ethiopia, with homes ransacked and people delayed without charges. The United Nations Office on Genocide Prevention has said that the nature of this ethnic profiling constituted "a dangerous trajectory that heightens the risk of genocide, war crimes, ethnic cleansing and crimes against humanity."^[https://www.un.org/en/genocideprevention/documents/Statement%20on%20Ethiopia%2012%20November%202020.pdf]
+
+### So, we SHOULDN'T count people based on identity?
+
+
+
