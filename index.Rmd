@@ -83,11 +83,11 @@ knitr::include_graphics("images/swearing.png")
 ---
 # A note on my identity
 
-While I have tried to use the most accepted and appropriate language and research the topics I'm presenting, I do also want to acknowledge that I am a white, cis-woman and I'm speaking from a position of priviledge and sharing stories about peoples with significantly less.
+While I have tried to use the most accepted and appropriate language and research the topics I'm presenting, I do also want to acknowledge that I am a white, cis-woman and I'm speaking from a position of privilege and sharing stories about peoples with significantly less.
 
 If I make mistakes, and you're comfortable letting me know, please do.
 
-My hope in this seminar is to emphasize the broad important and work that we do as statistcians and the roles that we have in the ethical collection and dissemination of identity data.
+My hope in this seminar is to emphasize the broad important and work that we do as statisticians and the roles that we have in the ethical collection and dissemination of identity data.
 
 ---
 ## Census detectives activity
@@ -138,7 +138,7 @@ background-size: contain
 ### Census questionnaire sources
 
 - 1871 questionnaire image the result of searching "Elizabeth Bolton" on https://www.bac-lac.gc.ca/eng/census/1871/Pages/1871.aspx  
-- 1921 questionnaire iamge teh result of searching "Elizabrth Bolton" on  https://www.bac-lac.gc.ca/eng/census/1921/Pages/search.aspx  
+- 1921 questionnaire image the result of searching "Elizabeth Bolton" on  https://www.bac-lac.gc.ca/eng/census/1921/Pages/search.aspx  
 - 1951 punch card (2 images) from http://www.ccri.uottawa.ca/CCRI/Images/1951%20Schedule.pdf (sourced via https://mdl.library.utoronto.ca/collections/numeric-data/census-canada/1951)
 
 ---
@@ -183,7 +183,7 @@ class: center, middle
 - New question on gender includes non-binary and transgender  
 - References to "same-sex" and "opposite-sex" relationships removed
 
-Source: Statistics Canada. (2020). _Chief Statistician's virtual roundtable discussions: 2021 Census of Population questionnaire_. Retrived from https://www150.statcan.gc.ca/n1/pub/11-631-x/11-631-x2020002-eng.htm on 2021-11-24.
+Source: Statistics Canada. (2020). _Chief Statistician's virtual roundtable discussions: 2021 Census of Population questionnaire_. Retrieved from https://www150.statcan.gc.ca/n1/pub/11-631-x/11-631-x2020002-eng.htm on 2021-11-24.
 
 ---
 ## Learning outcomes

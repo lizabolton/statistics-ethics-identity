@@ -20,14 +20,7 @@ There is some language referenced in this seminar that is outdated and can be of
 - 'Eskimo': https://www.thecanadianencyclopedia.ca/en/article/eskimo  
 - 'Indian': https://www.thecanadianencyclopedia.ca/en/article/indian-term
 
-## A note on my identity
-
-While I have tried to use the most accepted and appropriate language and research the topics I'm presenting, I do also want to acknowledge that I am a white, cis-woman and I'm speaking from a position of priviledge and sharing stories about peoples with significantly less.
-
-If I make mistakes, and you're comfortable letting me know, please do.
-
-My hope in this seminar is to emphasize the broad important and work that we do as statistcians and the roles that we have in the ethical collection and dissemination of identity data.
-
+ 
 ## Census detective activity
 
 To motivate our conversation today, we're going to start with a census detective activity. You've each received an instructions sheet and five reformatted versions of selected census questions about age, sex/gender, race/ethnicity/ancestral origins and marital status.
@@ -76,4 +69,37 @@ Growing up, I couldn't believe this happened in my lifetime, and yet we are curr
 ### So, we SHOULDN'T count people based on identity?
 
 
+
+
+
+
+
+
+
+We have a long history of valuing information about people, including 
+
+---
+
+# Why do we measure aspects of identity?
+
+- DAGS
+
+- Causal paths, vs associations
+
+---
+
+## Changes to the 2021 census
+
+> ### Better reflection of Canada's diverse population
+- Changes made to better reflect how Canadians describe themselves and to reflect the diversity of the population  
+- Now referring to sex at birth rather than simply sex  
+- New question on gender includes non-binary and transgender  
+- References to "same-sex" and "opposite-sex" relationships removed
+
+Source: Statistics Canada. (2020). _Chief Statistician's virtual roundtable discussions: 2021 Census of Population questionnaire_. Retrived from https://www150.statcan.gc.ca/n1/pub/11-631-x/11-631-x2020002-eng.htm on 2021-11-24.
+---
+
+# Use in survey reweighting
+
+---
 
