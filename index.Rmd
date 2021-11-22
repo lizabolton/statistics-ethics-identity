@@ -58,6 +58,31 @@ htmltools::tagList(
 )
 ```
 
+
+```{r metathis, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "lizabolton/statistics-ethics-identity") %>% 
+  meta_social(
+    title = "Build your own universe",
+    description = paste(
+      "STA497 seminar: Statistics, identity and ethics", 
+  "Ethical considerations in the measurement and use of identity data"
+    ),
+    url = "https://lizabolton.github.io/statistics-ethics-identity/#1",
+    image = "https://raw.githubusercontent.com/lizabolton/statistics-ethics-identity/master/images/social-card.png",
+    image_alt = paste(
+      "Titel slide: STA497 seminar: Statistics, identity and ethics",
+  "Ethical considerations in the measurement and use of identity data", "Prof. Liza Bolton", "Nov 17, 2021"
+    ),
+    og_type = "website",
+    og_author = "Liza Bolton",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@Liza_Bolton",
+    twitter_site = "@Liza_Bolton"
+  )
+```
+
 class: center
 
 # Land Acknowledgement

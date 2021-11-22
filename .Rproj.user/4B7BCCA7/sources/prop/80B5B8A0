@@ -1,8 +1,9 @@
 {
     "source_window_id": "",
     "Source": "Source",
-    "cursorPosition": "117,38",
-    "scrollLine": "113",
+    "cursorPosition": "71,71",
+    "scrollLine": "65",
     "docOutlineVisible": "1",
-    "ignored_words": "bac,eng,aspx,ccri,uottawa,mdl,canada,Whitby,ohrc,roundtable,statcan,htm,href,freepik,Freepik,flaticon,Flaticon,dpi,color,gray,mr,Anishinaabe,Haudenosaunee,Mississaugas,thecanadianencyclopedia,eskimo,indian,cis,Scotia,recensement,cfm,jpg\n"
+    "ignored_words": "bac,eng,aspx,ccri,uottawa,mdl,canada,Whitby,ohrc,roundtable,statcan,htm,href,freepik,Freepik,flaticon,Flaticon,dpi,color,gray,mr,Anishinaabe,Haudenosaunee,Mississaugas,thecanadianencyclopedia,eskimo,indian,cis,Scotia,recensement,cfm,jpg\n",
+    "last_setup_crc32": "68B2D00732152eda"
 }
